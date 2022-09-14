@@ -6,6 +6,8 @@
 **/
 int main(void)
 {
-	write('_putchar /n')
-return (0) :
+	char str[] = "_putchar";
+
+	fwrite(str, 1, sizeof(str));
+	return (0);
 }
