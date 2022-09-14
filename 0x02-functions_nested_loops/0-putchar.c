@@ -2,13 +2,19 @@
 /**
 **main - Entry point
 **
-**Return: Always 0 (Success)
+**Return: Always 0 success
 **/
-
 int main(void)
 {
-	char str[] = "_putchar";
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
-	fwrite(str, 1, sizeof(str));
-	return (0);
+return (0);
 }
