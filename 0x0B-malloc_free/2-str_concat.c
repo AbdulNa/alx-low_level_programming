@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * *str_concat - concatenates two strings
+ **str_concat - concatenates two strings
  ** @s1: string to concatenate
  ** @s2: other string to concatenate
  **
@@ -15,7 +15,7 @@
 
 	while (s1 && s1[len1])
 
-	len1++
+	len1++;
 
 	while (s2 && s2[len2])
 
@@ -46,6 +46,5 @@
 }
 }
 	s3[i] = '\0';
-
 	return (s3);
 }
