@@ -64,7 +64,7 @@
 	if (tmp == NULL)
 	return (NULL);
 	while (start < end)
-	
+
 	*tmp++ = str[start++];
 	*tmp = '\0';
 	matrix[k] = tmp - c;
@@ -73,10 +73,8 @@
 }
 }
 	else if (c++ == 0)
-
 	start = i;
 }
 	matrix[k] = NULL;
-
 	return (matrix);
 }
