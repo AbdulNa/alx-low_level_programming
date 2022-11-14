@@ -1,1 +1,1 @@
-A static library creation and how to use it efficeintly
+This is on static libraries and how to crate them
